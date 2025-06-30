@@ -1,9 +1,3 @@
-import os
-
-os.environ['XDG_CONFIG_HOME'] = '.streamlit'
-os.environ['XDG_CACHE_HOME'] = '.streamlit'
-os.environ['STREAMLIT_HOME'] = '.streamlit'
-
 import streamlit as st
 from transformers import pipeline
 from PIL import Image
